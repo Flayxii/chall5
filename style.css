@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 2rem 0;
+    background-color: rgb(143, 143, 143);
+    width: 100%;
+    margin: auto;
+}
+.flex{
+    padding: 2rem;
+    display: flex;
+}
+.flex p{
+    padding: 5px 0 0 2rem;
+}
+.bord{
+    background-color: white;
+    border-radius: 8px;
+    margin: 2rem;
+}
+h2{
+    padding: 2rem 2rem;
+}
+p{
+    padding: 1rem 2rem;
+}
+h4{
+    padding: 0rem 1rem 0 2rem;
+}
+img{
+    border-radius: 50%;
+    height: 50%;
+    border: solid 1px black;
+}
+@media screen and (min-width:800px) {
+    
+
+#uno{
+    display: grid;
+    grid-template-columns: 65% 35% ;
+}
+#dos{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+main{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+}
