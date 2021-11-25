@@ -48,12 +48,15 @@ img{
     background-color: black;
     color: white;
 }
+.pdiv{
+    padding-bottom: 3rem;
+}
 @media screen and (min-width:800px) {
     
 
 #uno{
     display: grid;
-    grid-template-columns: 65% 35% ;
+    grid-template-columns: 60% 40% ;
 }
 #dos{
     display: grid;
