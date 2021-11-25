@@ -34,6 +34,20 @@ img{
     height: 50%;
     border: solid 1px black;
 }
+#violet{
+    background-color: blueviolet;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#gray{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+#black{
+    background-color: black;
+    color: white;
+}
 @media screen and (min-width:800px) {
     
 
